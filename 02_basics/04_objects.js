@@ -53,3 +53,16 @@ console.log(Object.values(tinderUser)); // Returns the values only
 console.log(Object.entries(tinderUser)); // Returns the arrays of keys and values
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+const course = {
+  courseName: "js in hindi",
+  coursePrice: "999",
+  courseInstructor: "Hitesh",
+};
+
+// course.courseInstructor
+
+const { courseInstructor } = course; // This is called destructuring
+console.log(courseInstructor);
+const { courseInstructor: Instructor } = course;
+console.log(Instructor);
