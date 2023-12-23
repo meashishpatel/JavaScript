@@ -11,3 +11,11 @@
 })("ashish");
 
 // (function definition)(function execution)
+
+
+
+// How codes are executed:
+// 1. Global Execution - this
+// 2. Memory Phase - all variables are made undefined and functions are defined
+// 3. Execution Phase - All variables are declared and defined (new variable enviroment + execution thread)
+// 4. 
