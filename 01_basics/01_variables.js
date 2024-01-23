@@ -4,7 +4,7 @@ var accountPassword = "12345";
 accountCity = "Jaipur";
 let accountState;
 
-// accountId = 2 // not allowed
+// accountId = 2 // not allowed to change const variables
 accountEmail = "ashish@gmail.com";
 accountPassword = "3423234";
 accountCity = "Buxar";
@@ -20,5 +20,5 @@ console.table([
   accountEmail,
   accountPassword,
   accountPassword,
-  accountState,
+  accountState, //this is undefined
 ]);
