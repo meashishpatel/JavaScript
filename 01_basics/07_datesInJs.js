@@ -8,8 +8,8 @@ console.log(typeof myDate);  // Object
 
 // let myCreatedDate = new Date(2023, 0, 23)  // Months start from 0 in JavaScript
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14") //yyyy=mm--dd
-let myCreatedDate = new Date("01-14-2023") // MM-DD_YYYY
+// let myCreatedDate = new Date("2023-01-14") //yyyy-mm-dd
+let myCreatedDate = new Date("01-14-2023") // MM-DD-YYYY
 // console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp = Date.now()
