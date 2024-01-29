@@ -1,18 +1,19 @@
 const myObject = {
-    js: 'javascript',
-    cpp: 'C++',
-    rb: "ruby",
-    swift: "swift by apple"
+  js: "javascript",
+  cpp: "C++",
+  rb: "ruby",
+  swift: "swift by apple",
+};
+
+for (const key in myObject) {
+  // For each will not work here
+  //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
-for (const key in myObject) {  // For each will not work here 
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
-}
-
-const programming = ["js", "rb", "py", "java", "cpp"]
+const programming = ["js", "rb", "py", "java", "cpp"];
 
 for (const key in programming) {
-    //console.log(programming[key]);
+  //console.log(programming[key]);
 }
 
 // const map = new Map()
