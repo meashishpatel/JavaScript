@@ -10,6 +10,10 @@
     <button id="stop">Stop</button>
   </body>
   <script>
+    // setTimeout(function(){    //This method will print my name after waiting 2 seconds
+    //   console.log("Ashish");
+    // }, 2000)
+
     const sayAshish = function () {
       console.log("Ashish");
     };
@@ -18,10 +22,12 @@
     };
     const changeMe = setTimeout(changeText, 2000);
 
-    document.querySelector('#stop').
-    addEventListener('click', function(){
-        clearTimeout(changeMe);
-        console.log("STOPPED")
-    })
+    document.querySelector("#stop").addEventListener("click", function () {
+      clearTimeout(changeMe);
+      console.log("STOPPED");
+    });
   </script>
 </html>
+
+<!-- setTimeout is not any some core javascript function it's an api which browser gives
+ -->
